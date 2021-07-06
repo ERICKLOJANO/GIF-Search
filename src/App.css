@@ -1,0 +1,150 @@
+html{
+  background-color: gray;
+  height: 100%;
+  width: 100%;
+}
+
+.button-group{
+    padding: 1%;
+}
+
+.main-buttons{
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 10px 24px;
+  cursor: pointer;
+  width: 17%;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+.main-buttons:hover{
+  background-color: white;
+  color: black;
+}
+
+.gif-layout{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 5px;
+  position: relative;
+}
+
+.gif-item{
+  text-align: center;
+  background-color: #d492be;
+  margin: 10px;
+  padding: 20px;
+  font-family: 'Lexend Deca', sans-serif;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+}
+
+/* .name-text{
+  text-align: center;
+} */
+
+h2.name-text{
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 0;
+}
+
+a.name-link{
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+a.name-link:hover{
+  /* text-decoration: none; */
+  color: black;
+}
+
+.gif-item:hover{
+  background-color: #92d2d6;
+}
+
+.gif-image{
+  height: 150px;
+  cursor: copy;
+}
+
+.gif-text{
+  padding-top: 20px;
+}
+
+.gif-title{
+  font-size: 28px;
+  text-align: center;
+  padding: 10px;
+  color:white;
+  text-decoration: none;
+}
+
+.gif-title:hover{
+  color: black;
+}
+
+.smalltext{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-bottom: 1%;
+  /* grid-gap: 20%; */
+  /* margin: 0; */
+}
+
+p.smalltext-left{
+  text-align: center;
+  font-family: 'Archivo Black', sans-serif;
+  width: 50%;
+  padding-left: 25%;
+  margin: 0;
+}
+
+p.smalltext-right{
+  text-align: center;
+  font-family: 'Archivo Black', sans-serif;
+  width: 50%;
+  /* padding-right: 25%; */
+  margin: 0;
+}
+
+
+h1{
+  text-align: center;
+  font-size: 48px;
+  font-family: 'Archivo Black', sans-serif;
+  margin-bottom: 0;
+}
+
+#searchBar{
+  text-align: center;
+}
+
+#searchQuery{
+  border: 2px solid black;
+  height: 50px;
+  font-size: 30px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+#searchButton{
+  height: 55px;
+  background-color: black;
+  color: white;
+  width: 120px;
+  text-align: center;
+  margin-left: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: 'Archivo Black', sans-serif;
+  position: relative;
+}
+
+#searchButton:hover{
+  background-color: white;
+  color: black;
+}
